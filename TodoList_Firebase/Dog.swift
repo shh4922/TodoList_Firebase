@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Identifiable은 뭐지?
 struct Dog: Identifiable {
     var id : String
+    var bread : String
 }

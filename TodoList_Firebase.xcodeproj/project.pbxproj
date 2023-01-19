@@ -18,6 +18,8 @@
 		006D20E52977929F00BAA166 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 006D20E42977929E00BAA166 /* GoogleService-Info.plist */; };
 		006D20E7297798EF00BAA166 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D20E6297798EF00BAA166 /* ListView.swift */; };
 		006D20E92977990300BAA166 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D20E82977990300BAA166 /* Dog.swift */; };
+		00AE4F9E2978C36600F2F0E0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AE4F9D2978C36600F2F0E0 /* DataManager.swift */; };
+		00AE4FA02978C9B600F2F0E0 /* NewDogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AE4F9F2978C9B600F2F0E0 /* NewDogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		006D20E42977929E00BAA166 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		006D20E6297798EF00BAA166 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		006D20E82977990300BAA166 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		00AE4F9D2978C36600F2F0E0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		00AE4F9F2978C9B600F2F0E0 /* NewDogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				006D20CC2977497200BAA166 /* TodoList_FirebaseApp.swift */,
+				00AE4F9F2978C9B600F2F0E0 /* NewDogView.swift */,
 				006D20CE2977497200BAA166 /* ContentView.swift */,
 				006D20D02977497400BAA166 /* Assets.xcassets */,
 				006D20D22977497400BAA166 /* TodoList_Firebase.entitlements */,
@@ -74,6 +79,7 @@
 				006D20DB2977498900BAA166 /* LoginView.swift */,
 				006D20E6297798EF00BAA166 /* ListView.swift */,
 				006D20E82977990300BAA166 /* Dog.swift */,
+				00AE4F9D2978C36600F2F0E0 /* DataManager.swift */,
 				006D20E42977929E00BAA166 /* GoogleService-Info.plist */,
 			);
 			path = TodoList_Firebase;
@@ -167,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				006D20E7297798EF00BAA166 /* ListView.swift in Sources */,
+				00AE4F9E2978C36600F2F0E0 /* DataManager.swift in Sources */,
 				006D20DC2977498900BAA166 /* LoginView.swift in Sources */,
 				006D20CF2977497200BAA166 /* ContentView.swift in Sources */,
+				00AE4FA02978C9B600F2F0E0 /* NewDogView.swift in Sources */,
 				006D20E92977990300BAA166 /* Dog.swift in Sources */,
 				006D20CD2977497200BAA166 /* TodoList_FirebaseApp.swift in Sources */,
 			);

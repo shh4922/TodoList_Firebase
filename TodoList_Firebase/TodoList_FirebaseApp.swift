@@ -11,12 +11,16 @@ import Firebase
 @main
 struct TodoList_FirebaseApp: App {
     
+    @StateObject var dataManager = DataManager()
+    
     init(){
         FirebaseApp.configure()
     }
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            ListView()
+                .environmentObject(dataManager)
+//            LoginView()
         }
     }
 }
